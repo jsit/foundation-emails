@@ -36,7 +36,11 @@ If you think you can solve a problem yourself, or want to implement a new featur
 - **Target the right branch.** So we can properly follow [semantic versioning](http://semver.org/), be sure to develop your pull request in the right branch:
   - Ink 1.0 changes: `v1.0`
   - Foundation for Emails 2.0+ bug fixes: `develop`
+<<<<<<< 3894843dd9c9d9bc21b60aefd3309d9372c8bcd8
   - New features should be pointed to: `v2.3`
+=======
+  - New features should be pointed to: `v2.2`
+>>>>>>> whoops, adding contributing back into the repo
 - **Test, test, and test.** The Foundation frameworks are used by thousands and thousands of designers and developers, so making sure your changes work in every email client is important! Please test bug fixes or new features in Litmus, or another email testing service.
 
 ## Help Wanted
