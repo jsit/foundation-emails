@@ -172,6 +172,15 @@ $remove-ios-blue: true !default;
 /// @param {String} $border - Shorthand border style for divider
 /// @param {String} $margin - Margin above and below divider
 @mixin h-line($align: $hr-align, $width: $hr-width, $border: $hr-border, $margin: nth($hr-margin, 1)) {
+  @at-root {
+    td.columns #{&} table,
+    td.column  #{&} table,
+    th.columns #{&} table,
+    th.column  #{&} table {
+      width: auto;
+    }
+  }
+
   th {
     padding-bottom: $margin;
     @if $align == 'left' {

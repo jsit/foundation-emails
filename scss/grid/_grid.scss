@@ -92,7 +92,7 @@ td.columns,
 td.column,
 th.columns,
 th.column {
-  table:not(.button):not(.hr table):not(.h-line table) {
+  table {
     width: 100%;
 
     &.button {
